@@ -1,0 +1,17 @@
+GET http://localhost:8080/test/get?id=1
+Accept: application/json
+
+###
+POST http://localhost:8080/test/add
+Content-Type: application/json
+
+{
+  "name": "张三",
+  "gender": "男",
+  "age": 18,
+  "birthday": "2000-01-12"
+}
+
+###
+
+
